@@ -1,0 +1,29 @@
+.labelClass {
+  font-size: 20px;
+}
+main {
+  position: relative;
+}
+textarea {
+  padding: 10px 5px 5px 10px;
+  border-radius: 20px;
+  height: 150px;
+  width: 300px;
+  resize: none;
+  border: solid 1px black;
+  box-shadow: none;
+  outline: none;
+}
+textarea:focus {
+  box-shadow: none;
+  outline: none;
+}
+.pparent {
+  position: relative;
+  width: max-content;
+}
+.div1 {
+  /* position: absolute; */
+  bottom: 4px;
+  right: 0px;
+}
